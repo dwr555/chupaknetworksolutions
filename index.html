@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chupak Network Solutions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #444;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #0073e6, #00c6ff);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        header img.logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1100px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #0073e6;
+            text-align: center;
+        }
+        section p {
+            text-align: justify;
+            margin: 1rem 0;
+        }
+        .services, .clients {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .card {
+            flex: 1 1 calc(50% - 1rem);
+            background: #fafafa;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            max-width: 350px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .card h3 {
+            color: #0073e6;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            text-align: justify;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            background: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            .card {
+                flex: 1 1 100%;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Chupak Network Solutions Logo" class="logo">
+        <h1>Chupak Network Solutions</h1>
+        <p>Professional Cloud Services Consulting and Large-Scale Projects</p>
+    </header>
+    <section>
+        <h2>About Us</h2>
+        <p>
+            At Chupak Network Solutions, we specialize in empowering businesses through advanced cloud technologies. 
+            Our comprehensive suite of services is designed to help organizations adopt, optimize, and scale their cloud environments effectively. 
+            With a dedicated team of experts, we have built a reputation for delivering innovative solutions tailored to unique business needs.
+        </p>
+        <p>
+            Whether you are transitioning from legacy systems, implementing hybrid cloud solutions, or optimizing existing cloud infrastructure, 
+            we provide end-to-end support to ensure success at every stage. Our client-centric approach prioritizes collaboration, transparency, and measurable results.
+        </p>
+        <p>
+            Join the ranks of forward-thinking enterprises and high-tech companies who trust us to manage their cloud journeys with precision and expertise. 
+            Let us guide you through the complexities of cloud transformation, so you can focus on driving innovation and achieving your strategic goals.
+        </p>
+    </section>
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <img src="images/cloud-strategy.jpg" alt="Cloud Strategy">
+                <h3>Cloud Strategy</h3>
+                <p>
+                    A well-designed cloud strategy is the foundation of digital transformation. Our team of seasoned strategists works closely with businesses to define and execute a cloud roadmap that aligns with their goals. 
+                    Through comprehensive assessments, risk analyses, and detailed planning, we ensure your journey to the cloud is smooth, scalable, and future-ready.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/implementation.jpg" alt="Implementation">
+                <h3>Implementation</h3>
+                <p>
+                    Cloud migration and implementation are complex processes that require expert handling. Our implementation services cover every aspect of the transition, from infrastructure setup to application integration. 
+                    We ensure minimal disruption and maximum efficiency, allowing your business to leverage the cloud without missing a beat.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/optimization.jpg" alt="Optimization">
+                <h3>Optimization</h3>
+                <p>
+                    To maximize the benefits of cloud adoption, continuous optimization is crucial. We provide detailed performance analyses and cost optimization strategies to ensure your cloud environment is efficient, secure, and aligned with your evolving needs. 
+                    Our proactive approach ensures long-term value from your investment.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Our Clients</h2>
+        <div class="clients">
+            <div class="card">
+                <img src="images/enterprise-businesses.jpg" alt="Enterprise Businesses">
+                <h3>Enterprise Businesses</h3>
+                <p>
+                    Large enterprises face unique challenges in cloud adoption, from compliance requirements to managing vast data volumes. 
+                    At Chupak Network Solutions, we design scalable and secure solutions tailored to meet the demands of complex business environments. 
+                    Join the growing list of enterprises who have transformed their operations with our expertise.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/high-tech-companies.jpg" alt="High-Tech Companies">
+                <h3>High-Tech Companies</h3>
+                <p>
+                    Innovation drives the high-tech sector, and a strong cloud foundation is essential for success. 
+                    Our advanced cloud solutions are built to support high-tech companies in their pursuit of cutting-edge development, customer engagement, and global expansion. 
+                    Let us help you bring your vision to life.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Us</h2>
+        <p>
+            Have questions or need assistance? We're here to help! Whether you're looking to discuss your next cloud project, require strategic guidance, 
+            or want to learn more about our services, don't hesitate to get in touch with us. Use the form below to reach out, and one of our experts will get back to you promptly.
+        </p>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Chupak Network Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
